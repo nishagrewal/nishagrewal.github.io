@@ -6,6 +6,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My GitHub Pages Site</title>
   <link rel="stylesheet" href="style/styles.css">
+  <style>
+    /* You can include CSS here or in the linked stylesheet */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero {
+      background-image: url('blackfordhill.jpg'); /* Background image */
+      background-size: cover;
+      background-position: center;
+      height: 400px; /* Adjust the height as needed */
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      padding: 20px; /* Padding for text alignment */
+      color: white; /* Text color */
+      position: relative; /* To position child elements */
+    }
+
+    .profile {
+      max-width: 400px; /* Adjust the width of the text box */
+      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+      padding: 20px; /* Padding for the text content */
+      border-radius: 10px; /* Rounded corners for aesthetics */
+    }
+
+    .social-links a {
+      color: #fff; /* Link color */
+      text-decoration: none;
+      margin: 0 10px; /* Space between links */
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      position: relative;
+    }
+  </style>
 </head>
 <body>
   <!-- Header Section -->
@@ -24,8 +92,6 @@
   <main>
     <section class="hero">
       <div class="profile">
-        <!-- Replace 'your-photo.jpg' with the path to your profile photo -->
-        <img src="blackfordhill.jpg" alt="Your Name" class="profile-photo">
         <h1>Nisha Grewal</h1>
         <p>PhD Student</p>
         <p>Institute for Astronomy</p>
