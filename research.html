@@ -20,17 +20,32 @@
     </nav>
   </header>
 
-      <!-- Research Section -->
+<!-- Research Section -->
   <main>
     <section id="research">
-      <h2>Research</h2>
-      <p>Cosmology studies the evolution and characteristics of the Universe. To better understand the history of the dark sector, we measure statistics from galaxy catalogs and maps to constrain cosmological parameters that describe dark matter and dark energy. Statistics measured from gravitational lensing (the bending of light around large masses) are effective in probing the growth of large-scale structure and the accelerated expansion of the Universe. In my research, I evaluate different types of statistics to build a cohesive model that can eventually be measured from the Legacy Survey in Space and Time’s upcoming powerful data set.</p>
-      <h2>Minkowski Functionals in Joint Galaxy Clustering & Weak Lensing Analyses</h2>
-      <p>Weak gravitational lensing, the distortion of light from distant galaxies due to massive foreground structures, provides a powerful tool for probing the dark components of the Universe. Although dark matter and dark energy cannot be observed directly, their presence and distribution can be inferred through weak lensing effects. From these observations, convergence maps are created, which represent the projected mass distribution of the Universe. Traditionally, two-point correlation functions have been used to analyse these maps, but they are limited to capturing Gaussian information only.</p>
-      <p>To address this limitation, I employ higher-order statistics to measure non-Gaussian information on small scales, where potentially new insights into dark matter and dark energy can be obtained. My research utilises Minkowski Functionals (MFs), a set of morphological descriptors that quantify the topology of structures in 2D fields. In this paper, I calculated MFs from excursion sets of the convergence field derived from weak lensing data. Moreover, I extended the analysis to include clustering maps, which contain the number density distribution of galaxies. Here I measured both two-point statistics and MFs from both convergence and clustering maps. This is the first study to include galaxy clustering in an MF analysis, a combination that led to tighter cosmological parameter constraints compared to using convergence maps alone.</p>
-      <h2>Comparing Mass Mapping Reconstruction Methods with Minkowski Functionals</h2>
-      <p>Convergence cannot be directly measured, but can be measured from the observed shear data—the distortions in galaxy shapes caused by gravitational lensing. However, this reconstruction process is not straightforward. It is complicated by noise from the intrinsic shapes of galaxies and masks in the data caused by factors like bright stars and observational systematics. Different methods have been developed to handle these challenges while preserving the underlying cosmological signal.</p>
-      <p>In this paper, I evaluated four different mass-mapping techniques to determine which provides the most accurate reconstruction of the convergence field. The Kaiser-Squires (KS) method, a simple linear inversion, is widely used but fails in the presence of noise and masks. The Wiener filter, another linear approach, improves upon KS by accounting for noise and masks in the data. DarkMappy, a non-linear sparse wavelet Bayesian inference method, is designed to capture information in the non-Gaussian regime. DeepMass, a deep learning convolutional neural network, is trained to denoise noisy convergence maps. I reconstructed simulated convergence maps with each of the four methods. Then, I measured MFs from the reconstructed maps to evaluate the methods’ ability to retain non-Gaussian information on small scales. I compared the cosmological and baryonic constraints from the four methods. In this paper, I found DeepMass provided a 40% improvement in constraining power for all parameters, and I highlighted the critical dependence of the method on the small-scale data used for training.</p>
+      <h2>My Research</h2>
+      <p>Cosmology studies the evolution and characteristics of the Universe. To better understand the history of the dark sector, we measure statistics from galaxy catalogs and maps to constrain cosmological parameters that describe dark matter and dark energy...</p>
+      
+      <div class="paper">
+        <div class="paper-text">
+          <h2><a href="https://arxiv.org/pdf/2206.03877" target="_blank">Minkowski Functionals in Joint Galaxy Clustering & Weak Lensing Analyses</a></h2>
+          <p>Weak gravitational lensing, the distortion of light from distant galaxies due to massive foreground structures, provides a powerful tool for probing the dark components of the Universe...</p>
+        </div>
+        <div class="paper-images">
+          <img src="contour_m_legend.png" alt="Image related to research 1">
+        </div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-text">
+          <h2><a href="https://arxiv.org/pdf/2402.13912" target="_blank">Comparing Mass Mapping Reconstruction Methods with Minkowski Functionals</a></h2>
+          <p>Convergence cannot be directly measured but can be inferred from observed shear data—the distortions in galaxy shapes caused by gravitational lensing...</p>
+        </div>
+        <div class="paper-images">
+          <img src="recon_maps_noise.png" alt="Image related to research 2">
+        </div>
+      </div>
+
     </section>
   </main>
 
