@@ -91,6 +91,30 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 
+/* Hero section styles */
+.hero {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4; /* Optional background color */
+  text-align: center; /* Centers the text inside the profile */
+}
+
+.profile {
+  display: inline-block;
+}
+
+.social-links a {
+  color: #007bff; /* Blue color for the links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
 /* About section layout */
 .about {
   display: flex;
