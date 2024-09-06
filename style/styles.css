@@ -117,6 +117,31 @@ nav ul li a:hover {
 /*   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow to the image */ */
 }
 
+/* Outreach section layout */
+.outreach {
+  display: flex;
+  align-items: flex-start; /* Aligns the image and text at the top */
+  gap: 20px; /* Space between the image and text */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.outreach-image {
+  flex: 1; /* Image column */
+  max-width: 40%; /* Adjusts the image size */
+}
+
+.outreach-image img {
+  width: 100%; /* Image fills the width of the container */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Optional: adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+}
+
+.outreach-text {
+  flex: 2; /* Text column takes up remaining space */
+}
+
 /* Footer styles */
 footer {
   background-color: #333;
