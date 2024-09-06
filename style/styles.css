@@ -37,77 +37,47 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Hero section styles */
-.hero {
-  background-color: #007bff;
-  color: white;
-  padding: 50px 20px;
-  text-align: center;
+/* Research section styles */
+#research {
+  padding: 40px 20px;
 }
 
-.hero .profile {
+.paper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
-.hero .profile-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-bottom: 20px;
+.paper-text {
+  width: 60%;
 }
 
-.hero h1 {
-  margin: 10px 0 10px;
-}
-
-.hero p {
-  font-size: 18px;
-  margin: 0 0 20px;
-}
-
-.social-links {
-  font-size: 18px;
-}
-
-.social-links a {
-  color: white;
+.paper-text h2 a {
+  color: #007bff;
   text-decoration: none;
-  font-weight: bold;
 }
 
-.social-links a:hover {
+.paper-text h2 a:hover {
   text-decoration: underline;
 }
 
-.button {
-  background-color: white;
-  color: #007bff;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 20px;
+.paper-images {
+  width: 35%;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
 }
 
-.button:hover {
-  background-color: #0056b3;
-  color: white;
+.paper-images img {
+  width: 48%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Main content styles */
-main {
-  padding: 20px;
-}
-
-.content {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+.paper p {
+  margin-top: 10px;
 }
 
 /* Footer styles */
@@ -116,7 +86,4 @@ footer {
   color: white;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
 }
