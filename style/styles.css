@@ -107,7 +107,7 @@ nav ul li a:hover {
 
 .about-image {
   flex: 1;
-  max-width: 40px; /* Adjust the width of the image container */
+  max-width: 100px; /* pic size */
 }
 
 .about-image img {
